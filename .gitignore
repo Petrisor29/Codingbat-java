@@ -1,0 +1,33 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Compiled output
+/bin/
+/build/
+/out/
+/target/
+
+# === VS Code / GitHub.dev ===
+.vscode/
+.history/
+
+# === IntelliJ IDEA ===
+.idea/
+*.ipr
+*.iws
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Temporary files ===
+*.tmp
+*.swp
+*.swo
