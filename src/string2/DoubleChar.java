@@ -19,3 +19,7 @@ public class DoubleChar {
   
   return result;
 }
+ public static void main(String[] args) {
+        System.out.println(new DoubleChar().doubleChar("The")); // TThhee
+ }
+}
