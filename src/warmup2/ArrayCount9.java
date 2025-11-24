@@ -1,9 +1,9 @@
-package array1;
+package warmup2;
 
 /**
- * CodingBat - Array-1: arrayCount9
+ * CodingBat - Warmup-2: arrayCount9
  *
- * Given an array of ints, return the number of 9's in the array.
+ * Return the number of 9's in the array.
  */
 public class ArrayCount9 {
 
@@ -18,10 +18,10 @@ public class ArrayCount9 {
     public static void main(String[] args) {
         ArrayCount9 ac9 = new ArrayCount9();
 
-        System.out.println(ac9.arrayCount9(new int[]{1, 2, 9}));           // 1
-        System.out.println(ac9.arrayCount9(new int[]{1, 9, 9}));           // 2
-        System.out.println(ac9.arrayCount9(new int[]{1, 9, 9, 3, 9}));     // 3
-        System.out.println(ac9.arrayCount9(new int[]{1, 2, 3}));           // 0
-        System.out.println(ac9.arrayCount9(new int[]{}));                  // 0
+        System.out.println(ac9.arrayCount9(new int[]{1, 2, 9}));        // 1
+        System.out.println(ac9.arrayCount9(new int[]{1, 9, 9}));        // 2
+        System.out.println(ac9.arrayCount9(new int[]{1, 9, 9, 3, 9}));  // 3
+        System.out.println(ac9.arrayCount9(new int[]{1, 2, 3}));        // 0
+        System.out.println(ac9.arrayCount9(new int[]{}));               // 0
     }
 }
